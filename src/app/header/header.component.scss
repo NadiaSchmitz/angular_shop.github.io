@@ -1,0 +1,35 @@
+.header_wrapper {
+    width: var(--content_width);
+    margin: var(--content_margin);
+    padding: 20px;
+    .header_logo_wrapper,
+    .header_nav_wrapper {
+        display: flex;
+    }
+
+    .header_logo_wrapper {
+        .header_logo {
+            display: flex;
+            flex-flow: column;
+            width: 60px;
+            height: 60px;
+            background-image: url(../../assets/img/shop_logo.png);
+            background-size: contain;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            margin: 0 20px 0 0;
+        }
+        .header_name {
+            display: flex;
+            flex-flow: column;
+            font-size: 18px;
+            line-height: 60px;
+            font-weight: 600;
+            color: var(--base_title_text);
+        }
+    }
+
+    .header_nav_wrapper {
+        
+    }
+}

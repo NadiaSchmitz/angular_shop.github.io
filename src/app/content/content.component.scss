@@ -1,0 +1,8 @@
+.content {
+    display: flex;
+    width: var(--content_width);
+    height: calc(100vH - 124px);
+    background-color: var(--base_background_color_light);
+    margin: var(--content_margin);
+    padding: 30px;
+}
