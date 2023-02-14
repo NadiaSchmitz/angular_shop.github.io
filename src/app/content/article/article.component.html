@@ -11,6 +11,9 @@
             <span>15,99</span>
             <span>€</span>
         </div>
+        <div *ngIf="response">
+            <p>{{ response.description }}</p>
+        </div>
     </div>  
 </div>
 
