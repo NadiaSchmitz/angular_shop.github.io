@@ -7,6 +7,7 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { ArticleComponent } from './content/article/article.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ArticleServiceService } from './article-service.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ArticleServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
